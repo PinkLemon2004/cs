@@ -64,8 +64,8 @@ app.use((req, res, next) => {
 const dbConfig = {
     user: process.env.DB_USER || 'lemon',
     password: process.env.DB_PASSWORD || 'Nuey2547',
-    server: process.env.DB_SERVER || 'cs436s.database.windows.net',
-    database: process.env.DB_NAME || 'cstest',
+    server: process.env.DB_SERVER || 'cs436sv.database.windows.net',
+    database: process.env.DB_NAME || 'CS436Project',
     options: {
         encrypt: true,
         trustServerCertificate: true,
